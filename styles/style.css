@@ -341,8 +341,8 @@ nav h1{
 
     /* section_1 styles */
     .section_1{
-        padding: 30px 0;
-        margin-bottom: 50px;
+        padding: 30px 0 10px;
+        margin-bottom: 30px;
     }
     .section_1_core h2{
         padding: 0 5%;
@@ -350,8 +350,8 @@ nav h1{
     .why, .whyReverse{
         flex-direction: column;
         gap: 20px;
-        padding: 25px;
-        margin-bottom: 30px;
+        padding: 20px;
+        margin-bottom: 10px;
         width: calc(100% - 50px);
         text-align: center;
     }
@@ -388,9 +388,14 @@ nav h1{
     .nextTarget{
         flex-direction: column;
         align-items: flex-start;
+        padding: 4%;
+        width: 72%;
     }
 
     /* Section_5 styles */
+    .section_5{
+        margin-bottom: 50px;
+    }
     .section_5 h2{
         font-size: 25px;
     }
