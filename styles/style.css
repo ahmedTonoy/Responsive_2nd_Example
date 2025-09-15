@@ -33,7 +33,7 @@
 /* Container for controlling web-content size for very large device */
 .container{
     width: 100%;
-    max-width: 1500px;
+    max-width: 1700px;
     margin: 0 auto;
 }
 
