@@ -30,6 +30,13 @@
     font-weight: 800;
 }
 
+/* Container for controlling web-content size for very large device */
+.container{
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
 /* Button */
 .primaryBtn_1{
     padding: 17px 24px;
