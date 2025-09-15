@@ -412,7 +412,7 @@ nav h1{
         padding-left: 5%;
         font-size: 12px;
     }
-    
+
     /* Footer styles */
     .footerBox{
         flex-direction: column;
@@ -494,9 +494,6 @@ nav h1{
     }
     footer{
         margin-bottom: 20px;
-    }
-    footer h2{
-        /* text-align: center; */
     }
 }
 
