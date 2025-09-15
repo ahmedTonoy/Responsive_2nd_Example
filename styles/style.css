@@ -71,7 +71,8 @@ nav{
     margin-top: 36px;
     display: flex;
     justify-content: space-evenly;
-    gap: 768px;
+    align-items: center;
+    gap: 50%;
 }
 nav h1{
     font-size: 28px;
@@ -328,9 +329,6 @@ nav h1{
         background: url("../assets/Hero-bg.png") no-repeat center / cover;
     }
     .bannerBox{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
         gap: 20px;
     }
     .bannerBox h1{
@@ -431,6 +429,74 @@ nav h1{
 
 /* Medium Device Responsiveness */
 @media screen and (min-width: 576px) and (max-width: 992px) {
-    
+    /* Navbar styles */
+    nav{
+        margin-top: 30px;
+        align-items: center;
+        gap: 40%;
+    }
+    nav h1{
+        font-size: 25px;
+    }
+
+    /* Banner styles */
+    .banner{
+        margin-top: 30px;
+        padding: 30px 0 40px;
+        background: url("../assets/Hero-bg.png") no-repeat center / cover;
+    }
+
+    /* section_1 styles */
+    .section_1{
+        padding: 50px 0 20px;
+        margin-bottom: 70px;
+    }
+    .section_1_core h2{
+        padding: 0 5%;
+    }
+    .why, .whyReverse{
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+        margin-bottom: 20px;
+        width: calc(100% - 40px);
+        text-align: center;
+    }
+    .why{
+        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+    }
+    .whyReverse{
+        background-image: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+    }
+    .whyImg img{
+        width: calc(100% - 40px);
+    }
+    .whyText h3, .whyText p{
+        width: 100%;
+    }
+
+    /* section_2 styles */
+    .section_2 {
+        margin-bottom: 50px;
+    }
+
+    /* section_5 styles */
+    .section_5 .inputText{
+        width: 50%;
+        padding-left: 5%;
+    }
+
+    /* Footer styles */
+    .footerBox{
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+    footer{
+        margin-bottom: 20px;
+    }
+    footer h2{
+        /* text-align: center; */
+    }
 }
 
