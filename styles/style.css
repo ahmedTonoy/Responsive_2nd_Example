@@ -141,13 +141,21 @@ nav h1{
 }
 .whyText h3{
     text-align: left;
-    width: 50%;
+    width: 60%;
     line-height: 30px;
 }
 .whyText p{
     text-align: left;
     width: 70%;
     margin: 16px 0 32px;
+}
+.whyReverseText{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.whyReverseText h3, .whyReverseText p{
+    text-align: right;
 }
 
 /* Section_2 styles */
@@ -332,8 +340,8 @@ nav h1{
         gap: 20px;
     }
     .bannerBox h1{
-        font-size: 40px;
-        width: 60%;
+        font-size: 35px;
+        width: 80%;
         line-height: 48px;
     }
 
@@ -364,6 +372,12 @@ nav h1{
     }
     .whyText h3, .whyText p{
         width: 100%;
+    }
+    .whyReverseText{
+        display: block;
+    }
+    .whyReverseText h3, .whyReverseText p{
+        text-align: left;
     }
 
     /* Section_2 styles */
@@ -473,6 +487,12 @@ nav h1{
     }
     .whyText h3, .whyText p{
         width: 100%;
+    }
+    .whyReverseText{
+        display: block;
+    }
+    .whyReverseText h3, .whyReverseText p{
+        text-align: left;
     }
 
     /* section_2 styles */
